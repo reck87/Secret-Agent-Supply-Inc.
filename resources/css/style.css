@@ -1,37 +1,42 @@
+html{
+  font-size: 18px;
+}
+
 body {
     font-family: "Helvetica", sans-serif;
     line-height: 1.4;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
 }
+
 .company {
     background-color: black;
     color: white;
 }
+
 .company .container {
     display: flex;
     align-items: center;
     padding: .66rem 0 .66rem 0.5rem;
 }
+
 .container {
     max-width: 960px;
     margin: 0 auto;
 }
+
 .company img {
     height: 1.5rem;
     padding-right: 1rem;
 }
+
 .main-banner {
     background: url("../images/moto.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 25rem;
+    width: 100%;
 }
+
 .headline {
     position: relative;
     top: 9rem;
@@ -40,23 +45,76 @@ body {
     background-color: black;
     color: white;
 }
-h1, h4 {
+
+h1,
+h4 {
     font-weight: bold;
 }
+
 .headline h1 {
     margin: 0.25rem 0;
     font-size: 2rem;
     line-height: 1.2;
 }
+
 nav {
     background-color: firebrick;
     color: white;
 }
+
 nav ul {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.75rem 0;
-}
-ul {
+    padding: 0.75em 0;
     list-style: none;
+}
+
+.products, .business-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.product-image {
+    border: 4px solid black;
+    padding: 2rem 0;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image img {
+    max-width: 8rem;
+}
+
+.description {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.info .title {
+    display: block;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+}
+
+.info {
+    width: 35%;
+}
+
+footer {
+    padding: 5rem 0;
+    margin-top: 4rem;
+    background-color: black;
+    color: white;
+}
+
+.product {
+    width: 30%;
 }
