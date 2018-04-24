@@ -15,7 +15,7 @@ body {
 .company .container {
     display: flex;
     align-items: center;
-    padding: .66rem 0 .66rem 0.5rem;
+    padding: 0.66rem 0 0.66rem 0.5rem;
 }
 
 .container {
@@ -94,7 +94,7 @@ nav ul {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 0.5em;
+    padding: 0.5rem;
 }
 
 .info .title {
