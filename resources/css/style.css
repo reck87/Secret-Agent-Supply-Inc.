@@ -118,3 +118,31 @@ footer {
 .product {
     width: 30%;
 }
+
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px){
+
+  .product {
+    width: 47%;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  nav .container {
+    display: none;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+}
